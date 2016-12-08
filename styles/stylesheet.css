@@ -31,7 +31,13 @@ footer {
 }
 
 .inviteCol {
-  background-color:cyan;
+  background-color: dodgerblue;
+  height: 5rem;
+  margin: .25rem;
+}
+
+.aboutCol {
+  background-color: dodgerblue;
 }
 
 header h2 {
@@ -50,4 +56,34 @@ header nav {
   width: 4rem;
   height: 4rem;
   margin-left: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color:beige;
+}
+h3 {
+    color:beige;
+}
+
+.lessonsLi {
+  float: left;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.classesLi {
+  margin-left: .25rem;
+  margin-right: .25rem;  
+}
+
+.classesLi img {
+  width: 650px;
+  height: 500px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
 }
