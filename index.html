@@ -5,9 +5,14 @@
     <title>STP-Archery Site</title>
     <script src="https://use.fontawesome.com/81140c216b.js"></script>
     <link href="styles/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="styles/css/col.css" rel="stylesheet" type="text/css">
+    <link href="styles/css/4cols.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <header>
+      <h2>Straight to the Point (STP) Archery</h2>
+      <img src="images/logo.jpg" alt="stp-archery logo" class="logo">
+
       <nav>
         <a href="index.html">Home</a>
         <a href="classes.html">Classes</a>
@@ -18,19 +23,33 @@
       </nav>
     </header>
     
-    <article>
-      <h1><img src="images/logo.jpg" alt="stp-archery logo" width="60" height="60"> Straight to the Point (STP) Archery</h1>
-      <img src="images/targets.jpg" alt="targets with many arrows in the center" width="900" height="400">
-      <img src="images/students-competing.jpg" alt="students competing in an archery competition">
-      <p>From Beginner to Elite, archers of all ages and ability learn about this exciting Olympic and international sport. Sign up for a group lesson, private class, schedule a birthday or corporate party or compete at one of our many tournaments.  Straight to the Point Archery also offers homeschooling programs, kids club events, YMCA classes, Boy and Girl Scouts achievement programs and several other youth group activities. We are dedicated to teaching valuable life skills to the youth in our community through the wonderful discipline of archery.</p>
-    </article>
+    <div class="section group">
+      <article class="col span_4_of_4 background">
+        <h1><img src="images/logo.jpg" alt="stp-archery logo" width="60" height="60"> Straight to the Point (STP) Archery</h1>
+        <img src="images/targets.jpg" alt="targets with many arrows in the center" width="1490" height="300" style="float: left">
+        <img src="images/targets.jpg" alt="targets with many arrows in the center" width="745" height="400" style="float: left">
+        <p>From Beginner to Elite, archers of all ages and ability learn about this exciting Olympic and international sport. Sign up for a group lesson, private class, schedule a birthday or corporate party or compete at one of our many tournaments.  Straight to the Point Archery also offers homeschooling programs, kids club events, YMCA classes, Boy and Girl Scouts achievement programs and several other youth group activities. We are dedicated to teaching valuable life skills to the youth in our community through the wonderful discipline of archery.</p>
+      </article>
+      <aside class="col span_4_of_4 background">
+        <img src="images/students-competing.jpg" alt="students competing in an archery competition">
+      </aside>
+    </div>
     
-    <nav>
-      <a href="classes.html">Archery Classes</a>
-      <a href="private-lessons.html">Private Lessons</a>
-      <a href=#>Open Practice Signup</a>
-      <a href=#>Group Events</a>
-    </nav>
+    <div class="section group background">
+      <div class="col span_1_of_4 inviteCol">
+        <a href="classes.html">Archery Classes</a>
+        <p>Signup for amazing Classes</p>
+      </div>
+      <div class="col span_1_of_4 inviteCol">
+        <a href="private-lessons.html">Private Lessons</a>
+      </div>
+      <div class="col span_1_of_4 inviteCol">
+        <a href=#>Open Practice Signup</a>
+      </div>
+      <div class="col span_1_of_4 inviteCol">
+        <a href=#>Group Events</a>
+      </div>
+    </div>
 
     <footer>
       <section>
